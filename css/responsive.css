@@ -1,0 +1,185 @@
+/* Responsive CSS Document */
+
+/*
+    Created on   : 18/07/2017.
+    Theme Name   : World Flooring.
+    Description  : World Flooring - Flooring and Tiling Services.
+    Version      : 1.0.
+    Author       : @Unifytheme.
+    Developed by : Jubayer al hasan. (jubayer.hasan1991@gmail.com)
+
+*/
+
+
+
+@media (min-width: 992px) {
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media (max-width: 1199px) {
+  .theme-main-container.space-fix {margin: 0 -20px;}
+  .theme-main-container.space-fix .theme-col {padding: 0 20px;}
+  .project-details-v2 .project-slider-wrapper .thumbnail-wrapper button.swiper-button-next {right: 0;}
+  .contact-address .single-branch ul li br {display: none;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #mega-menu-holder>ul> li> a {margin: 0 13px;}
+  .theme-main-menu .logo {width: 22%;}
+  .inspiration-tab h4, .our-work h4 {font-size: 24px;}
+  .theme-main-container .theme-sidebar {width: 33%;}
+  .theme-main-container .theme-large-content {width: 67%;}
+  .shop-page .main-wrapper .shop-sidebar {width: 30%;}
+  .shop-page .main-wrapper .shop-large-side {width: 70%;}
+  .shop-page .all-product-wrapper .single-item h5 a {font-size: 18px;}
+  .shop-details .single-product-details .info a {margin-left: 120px;}
+  .details-page .theme-company-overview .wrapper div h6 {font-size: 20px;}
+  .our-project.projectV3 .single-project .image .text {top:100px;bottom: 100px;left:30px;right: 30px;}
+  .project-details .project-info {padding-left: 40px;padding-right: 20px;}
+  .project-slider-wrapper .thumbnail-wrapper button.swiper-button-next {right: 0;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+
+@media (max-width: 991px) {
+  .theme-main-container .theme-large-content,.shop-page .main-wrapper .shop-large-side,.request-quote-section .text,
+  .request-quote-section .img-box {width: 100%;}
+  .theme-main-container .theme-large-content,.shop-page .main-wrapper .shop-large-side {margin-bottom: 80px;}
+  .theme-main-header .theme-main-menu {padding-top: 20px;}
+  #mega-menu-holder>ul > li > a:before {top:22px;left: 2px;}
+  .bg-color #mega-menu-holder {background: #dadada;}
+  .bg-color #mega-menu-holder>ul> li> a {border-bottom: solid 1px rgba(0,0,0,0.08);}
+  .bg-color #mega-menu-holder>ul> li:first-child {border-top: solid 1px rgba(0,0,0,0.08);}
+  .bg-color #mega-menu-holder li .sub-toggle {border-left: solid 1px rgba(0,0,0,0.08);color: #212121;}
+  .bg-color #mega-menu-holder>ul> li.active>a,.bg-color #mega-menu-holder>ul> li.active .sub-toggle,
+  #mega-menu-holder>ul> li.active>a,#mega-menu-holder>ul> li.active .sub-toggle {color:#f75252; }
+  .theme-main-header .theme-main-menu {padding-top: 5px;}
+  .theme-main-menu.fixed #mega-menu-holder>ul> li> a {padding-bottom: 0;}
+  .request-quote-section .img-box {margin-top: 40px;}
+  .style-two.request-quote-section .img-box {margin-top: 0;}
+  .inspiration-tab .inspiration-panel,footer .top-footer [class*="col-"] {margin-bottom: 70px;}
+  footer .bottom-footer {margin-top: 0;text-align: center;}
+  footer .bottom-footer p,footer .bottom-footer form {float: none}
+  footer .bottom-footer form {width: 100%;margin: 20px 0 0 0;}
+  .our-project.projectV3 .single-project .image .text {top:10px;bottom: 10px;left:10px;right: 10px;}
+  .project-details-v2.project-details .project-info {margin-top: 40px;}
+  .our-blogv2 .page-pagination,.blog-details .leave-comment {margin-bottom: 80px;}
+}
+/*(max-width: 991px)*/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .theme-main-container .theme-sidebar,.shop-page .main-wrapper .shop-sidebar,
+  .project-details-v2 .project-slider-wrapper .thumbnail-wrapper {width: 50%;}
+  .project-slider-wrapper .thumbnail-wrapper button.swiper-button-next {right: 0;}
+  .details-page .theme-large-content h2 {font-size: 32px;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+  .theme-main-container .theme-sidebar,.shop-page .main-wrapper .shop-sidebar,
+  .style-two.request-quote-section .text,.details-page .theme-large-content .details-list ul li,
+  .project-details .project-info {width: 100%;}
+  .shop-details .single-product-details .info a {margin-left: 20px;}
+  .theme-main-header .top-header ul {float: none;text-align: center;}
+  .theme-main-header .top-header ul:nth-child(2) {margin-top: 15px;}
+  .our-blog .single-blog .text h4 a {font-size: 25px;}
+  .inner-banner .opacity h2 {font-size: 50px;margin-bottom: 70px;}
+  .inner-banner .opacity .contact-button {position: static;margin-top: 20px;}
+  .details-page .theme-company-overview .wrapper div h6 {font-size: 20px;}
+  .our-project.projectV4.projectV5 .mix,.project-details-v2 .project-slider-wrapper .thumbnail-wrapper {width: 50%;}
+  .project-details .project-info {padding-left: 10px;padding-right: 10px;}
+  .project-slider-wrapper .thumbnail-wrapper button.swiper-button-next {right: 0;}
+  .blog-details .single-blog-post .text h4 br {display: none;}
+  #banner .tp-caption h1 {font-size: 50px;}
+  #banner .tp-caption h6 {font-size: 20px;}
+  #banner .tp-caption p br {display: none;}
+}
+/*(max-width: 767px)*/
+
+@media (max-width: 700px) {
+  .error-page h3 {font-size: 27px;margin: 40px 0 30px 0;}
+  .error-page h3 img {display: block;margin: 0 auto;}
+  .error-page a {margin: 0;}
+  .error-page form {width: 80%;display: block;margin: 20px auto 0 auto;}
+}
+
+@media (max-width: 650px) {
+  #success,#error {
+    width: 84%;
+    height: auto;
+    top: calc(50% - 50px);
+    left: 8%;
+    padding: 30px 10px;
+  }
+  .our-project .col-xs-6 {width: 100%;}
+}
+
+@media (max-width: 600px) {
+  .shop-details .single-product-details .image,.shop-details .single-product-details .info,
+  .top-short-banner ul li,.our-service .single-service .image img,.our-service .col-xs-6,
+  .project-slider-wrapper .thumbnail-wrapper,.project-details-v2 .project-slider-wrapper .thumbnail-wrapper {width: 100%;}
+  .shop-details .single-product-details .info {padding: 50px 0 0 0;}
+  .details-page .theme-large-content h2 br,.theme-company-overview .clearfix:before,
+  .details-page .theme-large-content .details-list h4 br {display: none;}
+  .theme-company-overview .clearfix {border-left: 7px solid #ececec; margin-top: 40px;padding-left: 100px;}
+  .theme-company-overview .row .col {margin-top: 20px; width: 100%;}
+  .theme-company-overview .wrapper:before {top:72%;left:-100px;height: 2px;width: 90px;}
+  .details-page .theme-large-content .details-tab .panel-heading h6 a {padding-left: 10px;}
+  .details-page .theme-large-content .details-tab .panel-body {padding-left: 10px;padding-right: 10px;}
+  .theme-main-container .theme-sidebar .sidebar-list ul li a {padding: 0 10px 0 10px;}
+  .faq-page .title p br {display: none;}
+  .blog-inner-page .col-xs-6 {width: 100%;}
+  .our-blogv2 .single-blog-post .text {padding-left: 10px;}
+}
+
+@media (max-width: 550px) {
+  #searchWrapper form {height: 50px;}
+  #searchWrapper form button {width: 60px;font-size: 18px;}
+  #searchWrapper form input {font-size: 18px;padding-right: 62px;}
+  .our-project.projectV4.projectV5 .mix {width: 100%;}
+}
+
+@media (max-width: 500px) {
+  .inspiration-tab .panel-heading h6 a {padding-left: 10px;}
+  .inner-banner .opacity h2 {font-size: 40px;margin-bottom: 60px;}
+  .blog-details .theme-main-container .page-indicator .back-top {
+    position: static;
+    -webkit-transform:none;
+            transform:none;
+  }
+  .blog-details .theme-main-container .page-indicator a.pager {float: none;display: block;margin: 20px 0;}
+}
+
+@media (max-width: 450px) {
+  .shop-page .all-product-wrapper .col-xs-6,.our-work .col-xs-6,
+  .blog-details .comment-section .single-comment .img,.blog-details .comment-section .single-comment .comment {width: 100%;}
+  .error-page h2 strong {position: static;display: block;}
+  .blog-details .comment-section .single-comment .comment {padding: 0;margin-top: 25px;}
+  .blog-details .comment-section .single-comment .img,.blog-details .comment-section .single-comment .comment {float: none;}
+  .blog-details .comment-section .single-comment .img img {margin: 0 auto;}
+  .blog-details .comment-section .single-comment .comment span,
+  .blog-details .comment-section .single-comment .comment button {float: none; display: inline-block;}
+  .blog-details .comment-section .single-comment .comment button {margin-left: 20px;}
+}
+
+
+@media (max-width: 400px) {
+  .request-quote-section .img-box a {font-size: 40px;}
+  .theme-counter .opacity .text-center i {font-size: 45px;}
+  .theme-counter .opacity .text-center h5 {font-size: 15px;margin-bottom: 10px;}
+  .theme-counter .opacity .text-center .number {font-size: 30px;}
+  .theme-counter .opacity .text-center {padding-bottom: 0;}
+  .theme-counter .opacity {padding-bottom: 35px;}
+  .error-page form {width: 100%;}
+}
+
+@media (max-width: 380px) {
+  .theme-main-menu .logo {width: 60%;}
+  .details-page .theme-large-content h2 {font-size: 30px;}
+  .our-blogv2 .single-blog-post .text ul.post-info li:first-child {font-size: 18px;}
+  .our-blogv2 .page-pagination ul li a {width: 40px;height: 40px;line-height: 40px;font-size: 20px;margin-right: 8px;}
+}
